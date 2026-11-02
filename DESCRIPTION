@@ -1,0 +1,19 @@
+Package: Friedman
+Title: Weather Forecast
+Version: 0.0.0.9000
+Authors@R: 
+    person("Vinny", "Nguyen",
+            email= "nguyenv5@usf.edu",
+            role = c("aut", "cre"))
+Description: This package is an easy way to plot weather data onto plots using
+    ggplot2 and dplyr. You just need to enter a location and it will pull
+    weather data and plot it on barcharts, histograms, scatterplots, or piecharts.
+Depends: specify R (>= 3.1.2) only.
+Imports: ggplot2, dplyr
+License: CC0
+LazyData: true
+URL: https://github.com/nguyenvinny/Friedman
+BugReports: https://github.com/nguyenvinny/Friedman/issues
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
